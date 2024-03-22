@@ -6,6 +6,7 @@ mode: 'development',
   entry: './src/index.js',
   devServer: {
     static: './dist',
+    hot: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
