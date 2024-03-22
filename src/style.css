@@ -5,3 +5,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    border: 1px solid blue;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: .4em 1em;
+    background-color: darkgrey;
+    text-align: center;
+}
+
+header::after,
+header::before{
+    content: " -- ";
+}
