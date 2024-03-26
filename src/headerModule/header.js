@@ -1,8 +1,8 @@
 const header = (domEl)=>{
-    const header = document.createElement('header')
+    const header = document.createElement('header');
     header.innerHTML = 'todo list'
 
-    return domEl.append(header)
+    return domEl.prepend(header)
 
 };
 

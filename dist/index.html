@@ -1,14 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo List</title>
-<script defer src="bundle.js"></script></head>
-<body>
-    <div class="content"></div>
-    <h1>Teste</h1>
-
-    
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Todo List</title>
+	<script defer src="bundle.js"></script></head>
+	<body>
+		<div class="content"></div>
+		<main class="main-content">
+			<div class="projects">
+				<h2>Projects</h2>
+				<ul class="projects-list">
+					<li class="project" data-projetc="1">project 1</li>
+					<li class="project" data-projetc="2">project 2</li>
+					<li class="project" data-projetc="3">project 3</li>
+					<li class="project" data-projetc="4">project 4</li>
+				</ul>
+				<form class="project-form" action="#">
+					<input
+						class="project-input"
+						placeholder="new project name"
+						aria-label="new project name"
+					/>
+					<button class="btn btn-project-form" aria-label="create new project">
+						+
+					</button>
+				</form>
+			</div>
+			<div class="tasks">
+				<h2>Tasks</h2>
+				<ul class="tasks-list">
+					<li class="task" data-task="1">task 1</li>
+					<li class="task" data-task="2">task 2</li>
+					<li class="task" data-task="3">task 3</li>
+					<li class="task" data-task="4">task 4</li>
+				</ul>
+				<form action="">
+					<input
+						type="text"
+						class="new task-form"
+						placeholder="new task name"
+						aria-label="new task name"
+					/>
+					<button class="btn btn-task-form" aria-label="create new task">
+						+
+					</button>
+				</form>
+			</div>
+		</main>
+	</body>
 </html>
